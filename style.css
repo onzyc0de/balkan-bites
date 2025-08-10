@@ -1,0 +1,129 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f0;
+    color: #333;
+ }
+
+ h1 h2 {
+    font-family: 'Playfair Display', serif;
+ }
+
+ header {
+    background-color: #d35400;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10px;
+ }
+
+ header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+ }
+
+ header p {
+    font-style: italic;
+ }
+
+ nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 0;
+ }
+
+ nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e67e22;
+    transition: background-color 0.3s;
+ }
+
+ nav a:hover {
+    background-color: #a04000;
+ }
+
+ .intro {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff3e6;
+    color: #5c3d2e;
+    font-family: 'Lato', sans-serif;
+ }
+
+ .intro h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.2rem;
+    color: #d35400;
+    margin-bottom: 15px;
+ }
+
+ .home-picture img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+ }
+
+ .contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8e5d1;
+    margin-bottom: 0;
+ }
+
+ .contact h2 {
+    margin-bottom: 10px;
+    color: #b34700;
+ }
+
+ footer {
+    text-align: center;
+    background-color: #d35400;
+    color: #fff;
+    padding: 15px;
+    margin-top: 0;
+ }
+
+ .fa-facebook {
+    background: #3b5998;
+    color: white;
+ }
+
+ .fa-twitter {
+    background: #55acee;
+    color: #fff;
+ }
+
+ .fa-linkedin {
+    background: #3b5999;
+    color: #fff;
+ }
+
+ .fa-youtube {
+    background: #ff0000;
+    color: #fff;
+ }
+
+ .fa-instagram {
+    background: linear-gradient(#405de6, #5b51d8, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #777737, #fcaf45, #ffdc80);
+    color: #fff;
+ }
+
+ .fa-snapchat {
+    background: #000000;
+    color: #fff;
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+ }
